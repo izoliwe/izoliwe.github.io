@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	border-bottom: 2px solid #520073;
+	padding-bottom: 1px;
+	color: #520073;
+}
+
+.startpage {
+	background-image: url('../img/coverbg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	margin-top: 50px;
+	height: 905px;
+	color: #d3d3d3;
+	padding-top: 200px;
+	}
+
+	.startpage h1 {
+		font-size: 205px;
+		font-weight: 400;
+		line-height: 175px;
+		margin-bottom: 0;
+	}
+
+	.startpage h2 {
+		font-size: 100px;
+		font-weight: 500;
+		padding-left: 6px;
+		line-height: 64px;
+	}
+
+	.startpage h3 {
+		font-size: 24px;
+		font-weight: 600;
+		padding-left: 12px;
+		line-height: 40px;
+	}
+
+	.startpage h4 {
+		box-sizing: border-box;
+		font-size: 24px;
+		text-align: right;
+		margin-right: 12px;
+		line-height: 30px;
+	}
+
+.button {
+	text-align: center;
+	}
+
+	.startpage a.btn {
+		border-radius: 15px;
+		border-color: rgba(255, 255, 255, 1.0);
+		color: #fff;
+		background-color: rgba(255, 255, 255, 0.0);
+		margin-top: 82px;
+	}
+
+	.startpage a.btn:hover {
+		background-color: #520073;
+		border-color: rgba(0, 0, 0, 0);
+	}
+
+	.startpage a.btn:active {
+		background-color: #44065FFF;
+		border: 0;
+	}
+
+.services {
+	background-color: #d3d3d3;
+	box-shadow: 0px -1px 10px 1px black;
+	color: #000;
+	}
+
+	.services article {
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+
+	.services article a {
+		font-size: 48px;
+	}
+
+.dot {
+	color: #520073;
+	font-weight: 400;
+}
